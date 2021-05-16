@@ -16,5 +16,6 @@ def get_response():
 
 if __name__ == '__main__':
 	for timestamp, sample in get_response():
-		print(sample)
-		
+		#print(sample)
+		file = open("output.txt", "a")
+		file.writelines(str(sample))
