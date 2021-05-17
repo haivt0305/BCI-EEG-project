@@ -1,5 +1,5 @@
 from inlet import *
-# from model import *
+from model import *
 import numpy as np
 from pylsl import StreamInfo, StreamOutlet
 
